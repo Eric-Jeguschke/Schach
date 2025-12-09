@@ -1,4 +1,4 @@
-from Spielbrett.piece import Piece
+from Pieces.piece import Piece
 
 
 class Pawn(Piece):
@@ -6,4 +6,8 @@ class Pawn(Piece):
         super().__init__(color, position)
 
     def move(self):
+
+
+    def possibelMoves(self):
+
 
