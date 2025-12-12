@@ -5,7 +5,7 @@ class Pawn(Piece):
     def __init__(self, color, position):
         super().__init__(color, position)
 
-    def move(self):
+    def move(self, board):
 
 
     def possibelMoves(self):
